@@ -1,0 +1,55 @@
+Q1. Positions mutated:
+[78, 76, 128, 112, 28, 94, 13, 55, 79, 10]
+
+Q2. Frequencies of amino acids at each position calulated via function
+
+Q3. Selected libraries:
+
+Library 1:
+Position 128 - no selection compared to control
+Position 10 - no selection compared to control
+Position 76 - selction for A (2-fold), G (2-fold), P (~2-fold), L (~2-fold), M (~2-fold), V (2-fold), F (2-fold), I (~2-fold)
+Position 13 - no selection compared to control
+Position 78 - selection for A (2-fold), G (2-fold), P (~2-fold), L (~2-fold), M (~2-fold), V (2-fold), F (2-fold), I (~2-fold)
+Position 79 - selection for A (2-fold), G (2-fold), P (~2-fold), L (~2-fold), M (~2-fold), V (2-fold), F (2-fold), I (~2-fold)
+Position 112 - no selection compared to control
+Position 55 - no selection compared to control
+Position 28 - no selection compared to control
+Position 94 - no selection compared to control
+
+Library 2:
+Position 128 - no selection compared to control
+Position 10 - no selection compared to control
+Position 76 - no selection compared to control
+Position 13 - no selection compared to control
+Position 78 - no selection compared to control
+Position 79 - no selection compared to control
+Position 112 - no selection compared to control
+Position 55 - selection for Y (~20-fold)
+Position 28 - no selection compared to control
+Position 94 - no selection compared to control
+
+Library 3:
+Position 128 - no selection compared to control
+Position 10 - no selection compared to control
+Position 76 - no selection compared to control
+Position 13 - no selection compared to control
+Position 78 - no selection compared to control
+Position 112 - no selection compared to control
+Position 55 - no selection compared to control
+Position 28 - selection for E (10-fold), D (10-fold)
+Position 94 - selection for E (10-fold), D (10-fold)
+
+Library 4:
+
+Position 128 - no selection compared to control
+Position 10 - no selection compared to control
+Position 76 - no selection compared to control
+Position 13 - no selection compared to control
+Position 78 - no selection compared to control
+Position 79 - no selection compared to control
+Position 112 - no selection compared to control
+Position 55 - no selection compared to control
+Position 28 - no selection compared to control
+Position 94 - no selection compared to control
+

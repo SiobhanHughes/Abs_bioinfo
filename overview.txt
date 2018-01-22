@@ -1,0 +1,19 @@
+The 'synthetic_antibody_display_library' folder contains 6 fasta files. One of the files (source_sequence.fasta) contains the sequence of the PG9 heavy chain. That's the sequence used to generate the other 5 library files. The library files are synthetic, meaning I just made them up (this isn't actual sequence data, because that data is much messier and would be too difficult for a starting project). Each of the synthetic libraries has been 'mutagenized' at the same ten positions, although each individual sequence will only be mutated at one of those ten positions. One library is the control library, meaning it has not been 'selected' against anything (therefore, should not be enriched for any particular amino acid at any of the mutagenized positions). Be careful here -- remember that the libraries were made by randomly selecting codons, not amino acids. The other four libraries have been 'selected' for a particular function, meaning that one or more positions may have undergone selection for a specific amino acid or an amino acid property (charge, hydrophobicity, etc).
+
+Things to think about as you start thinking about how to proceed:
+    1) How do I open a file in Python?
+    2) How do I get at the sequence data from a FASTA-formatted file?
+    3) How do I compare two sequences (strings) to find the differences?
+    4) Once I've found a different codon, how do I convert that to an amino acid (in Python)?
+    4) How do I keep track of the number of mutations to a given amino acid for each position?
+    
+Google will be your friend here. If you Google "how do I open a file in python", you'll find a bunch of good information. Stack Overflow (stackoverflow.com) is a great resource and contains a ton of answers by very smart people.
+
+Your goal is to answer the following questions:
+
+1) What positions were mutated? Remember, all of the libraries were mutated at the same 10 positions.
+2) Describe the baseline frequency of amino acids at each of the mutated positions (using the conrtol library)
+3) For each of the 'selected' libraries, describe:
+        -- which positions were being selected (meaning, positions that have been enriched/depleted relative to baseline)
+        -- what specific amino acids or amino acid properties were preferred at the selected positions?
+        -- how strong was the selection (2-fold above baseline? 100-fold?)
